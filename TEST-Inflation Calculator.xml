@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="15" errors="0" failures="0" time="0.039" timestamp="2015-07-21T14:16:52">
+		<testcase classname="Inflation Calculator" name="fetchOptions() returns an object" time="0.006">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="fetchOptions() returns object with three properties: start, end, and amount" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="fetchOptions() return value has correct start, end, and amount values" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="fetchOptions() doesn&amp;apos;t hard code the start, end, and amount values" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="addPriceToPage() returns the parameter without the dollar sign" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="addPriceToPage() adds the parameter minus the &amp;apos;$&amp;apos; to the &amp;apos;endPrice&amp;apos; input when passed &amp;apos;$765.01&amp;apos;" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="addPriceToPage() adds the parameter minus the &amp;apos;$&amp;apos; to the &amp;apos;endPrice&amp;apos; input when passed &amp;apos;$435.53&amp;apos;" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="priceFor() accepts two parameters: the first is an options object" time="0.002">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="priceFor() accepts two parameters: the second is a callback function" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="priceFor() calls on the callback function in getJSON&amp;apos;s &amp;apos;done&amp;apos;" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="priceFor() formats the ajax call properly with country, start, end, amount, and format" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="fetchEndPrice() passes the return of fetchOptions() as the first param to priceFor()" time="0.005">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="fetchEndPrice() gives the callback it&amp;apos;s passed as a parameter as the second params to priceFor()" time="0.004">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="fetchEndPrice() adds the adjusted price to &amp;apos;#endPrice&amp;apos; for two dates in 2012 and $100" time="0.001">
+		</testcase>
+		<testcase classname="Inflation Calculator" name="fetchEndPrice() adds the adjusted price to &amp;apos;#endPrice&amp;apos; for one date in 2009, one in 2012, and $200" time="0.002">
+		</testcase>
+	</testsuite>
+</testsuites>
+
